@@ -3,7 +3,7 @@ CREATE DATABASE bamazon_db;
 
 USE bamazon_db;
 
-CREATE TABLE products (
+CREATE TABLE swag (
 	itemid integer auto_increment not null,
     productname varchar(45) not null,
     departmentname varchar(45) not null,
@@ -12,7 +12,7 @@ CREATE TABLE products (
     primary key (itemid)
 );
 
-INSERT INTO products VALUES
+INSERT INTO swag VALUES
 (1,"Supreme Toothbrush", "toothbrush",40.00, 2),
 (2,"Air Fear of God 1", "shoes",600.01, 3),
 (3,"Supreme Band-Aid", "band-aid",111.11, 4),
@@ -24,7 +24,7 @@ INSERT INTO products VALUES
 (9,"Air Presto Off-White Black", "shoes", 892.05, 2),
 (10,"Air Max 1 Parra Amsterdam", "shoes",9000.00, 1);
 
-SELECT * FROM products;
+SELECT * FROM swag;
 
 
 
